@@ -1,0 +1,179 @@
+
+* {
+box-sizing: border-box;
+font-family: " "Times New Roman", arial, sans-serif";
+fint-size: 1em;
+}
+
+html, body{
+margin: 0;
+padding: 0;
+}
+section{
+background-image:url(Images/bodybackground.jpeg);
+background-size: cover;
+opacity:1;
+color:hsl(296.31deg 68.73% 14%);
+}
+
+.body{
+background-image:url(Images/bodybackground.jpg);
+background-size: cover;
+opacity:1;
+color:hsl(296.31deg 68.73% 14%);
+}
+
+#header-block{
+background-size: cover;
+background-image: url(Images/headerbackground.jpg);
+padding: 0 0 30px 0;
+}
+
+nav{
+font-size: 1.1em;
+font-weight: lighter;
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+list-style-type: none;
+margin: 0;
+padding: 20px 0 20px 0;
+}
+
+nav a{
+color: hsl(120deg 59.27% 84.15%);
+text-decoration: none;
+}
+
+nav a:hover{
+color: hsl(120deg 100% 47.17%);
+}
+
+.main-header{
+color: hsl(45.97deg 100% 92.37%);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.header-logo{
+width:100px;
+height:100px;
+}
+
+.main-heading{
+font-size: 1.3em;
+text-align: center;
+}
+
+
+.content-section{
+font-size: 1.5em;
+margin: 0 3em;
+border:0;
+text-align: justify;
+}
+
+.content-section p{
+margin:0;
+padding:20px;
+}
+
+.section-header{
+font-size: 1.5em;
+margin: 0;
+text-align: center;
+}
+
+.footer-logo{
+width: 75px;
+height: 75px;
+}
+
+.contact-logo{
+width:25px;
+height:25px;
+}
+
+.footer-logo:hover{
+opacity:0.75;
+}
+
+.footer-block{
+font-size:1.2em;
+display: grid;
+grid-template-columns: repeat(4, 25%);
+grid-gap: 5px;
+margin:auto;
+padding:3em 3em 1em 3em;
+position: relative;
+bottom:0px;
+width: 100%;
+background-color: hsl(182.67deg 81.56% 44.15%);
+}
+
+.footer-block div{
+text-align: justified;
+}
+
+.address{
+text-align: center;
+}
+
+.college-address{
+text-align: justified;
+}
+
+.footer-block ul{
+display: flex;
+flex-direction: column;
+padding: 15px;
+list-style-type: none;
+}
+
+.footer-block a{
+color: hsl(0deg 40.43% 36.86%);
+text-decoration: none;
+}
+
+.footer-links ul{
+padding: 0px;
+margin: 5px;
+}
+
+.footer-links a: hover{
+color: hsl(0deg 66.32% 62.57%);
+}
+
+.footer-links div{
+margin:0;
+border-bottom: 1px dashed black;
+}
+
+.hyperlink img{
+padding:10px;
+justify-content: space-between;
+}
+
+#footer-block{
+position: relative;
+bottom:0px;
+width: 100%;
+background-color: hsl(182.67deg 81.56% 44.15%);
+}
+
+
+#footer-block ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+margin:auto;
+padding: 10px;
+list-style-type: none;
+}
